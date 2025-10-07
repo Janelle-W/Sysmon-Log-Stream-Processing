@@ -12,15 +12,20 @@ The project simulates a security monitoring pipeline that:
 
 ## Components
 
-### Core Files
+### Core Files (`code/` folder)
 - `log_producer.py` - Simulates real-time log streaming from CSV data
 - `log_consumer.py` - Processes incoming logs and generates alerts
 - `log_utils.py` - Utility functions for log parsing and suspicious event detection
 
+### Test Files (`code/` folder)
+- `test_log_utils.py` - Unit tests for utilities
+- `test_log_consumer.py` - Unit tests for consumer
+- `test_log_producer.py` - Unit tests for producer
+
 ### Data Files
+- `sample_data.csv` - Sample security event data for demonstration
 - `stream_buffer.jsonl` - Temporary buffer for streamed log data (generated)
 - `alerts.json` - Generated alerts from suspicious events (generated)
-- `sample_data.csv` - Sample security event data for demonstration
 
 ## Suspicious Event Detection
 
@@ -49,13 +54,13 @@ This data is derived from cybersecurity training materials and does not contain 
 
 1. **Start the log producer** (simulates real-time log generation):
    ```bash
-   python log_producer.py
+   python code/log_producer.py
    ```
    This will process `sample_data.csv` and create `stream_buffer.jsonl`
 
 2. **Run the consumer** (processes logs and generates alerts):
    ```bash
-   python log_consumer.py
+   python code/log_consumer.py
    ```
    This will analyze `stream_buffer.jsonl` and create `alerts.json`
 
@@ -71,9 +76,9 @@ pip install -r requirements.txt
 ## Running Tests
 
 ```bash
-python test_log_utils.py
-python test_log_consumer.py
-python test_log_producer.py
+python code/test_log_utils.py
+python code/test_log_consumer.py
+python code/test_log_producer.py
 ```
 
 ## Educational Purpose
