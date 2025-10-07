@@ -1,0 +1,101 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated output files (these are created by running the scripts)
+alerts.json
+stream_buffer.jsonl
+
+# Test files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Any real sensitive data files (just in case)
+*_real_data*
+*_sensitive*
+security_events.csv
+evtx_data.csv
+original_data/
+*.evtx
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Original sensitive data files
+alerts.json
+stream_buffer.jsonl
+evtx_data.csv
+
+# Sanitization mapping (contains original->sanitized mappings)
+sanitized/sanitization_mapping.json
+
+# Any log files
+*.log

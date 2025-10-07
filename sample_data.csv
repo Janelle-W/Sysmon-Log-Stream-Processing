@@ -1,0 +1,11 @@
+EventID,UtcTime,Image,ProcessName,CommandLine
+1,2024-01-15 09:30:15.123,C:\Windows\System32\cmd.exe,cmd.exe,cmd.exe /c dir
+3,2024-01-15 09:30:16.456,C:\Windows\System32\svchost.exe,svchost.exe,
+11,2024-01-15 09:30:17.789,C:\Windows\System32\notepad.exe,notepad.exe,notepad.exe sample.txt
+4624,2024-01-15 09:30:18.012,C:\Windows\System32\winlogon.exe,winlogon.exe,
+4688,2024-01-15 09:30:19.345,C:\Windows\System32\taskmgr.exe,taskmgr.exe,
+1,2024-01-15 09:30:20.678,C:\Tools\suspicious.exe,suspicious.exe,suspicious.exe --extract-creds
+3,2024-01-15 09:30:21.901,C:\Windows\System32\powershell.exe,powershell.exe,powershell.exe -enc dGVzdCBlbmNvZGVkIGNvbW1hbmQ=
+1,2024-01-15 09:30:22.234,C:\Temp\tunnel.exe,tunnel.exe,tunnel.exe --remote-host 203.0.113.5 --port 443
+4663,2024-01-15 09:30:23.567,C:\Windows\System32\rundll32.exe,rundll32.exe,
+11,2024-01-15 09:30:24.890,C:\Windows\System32\calc.exe,calc.exe,calc.exe
